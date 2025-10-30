@@ -1,0 +1,20 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     elfinspectd
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _createSocket, symObjAddr: 0x0, symBinAddr: 0x1000026FC, symSize: 0x184 }
+  - { offsetInCU: 0x212, offset: 0x212, size: 0x8, addend: 0x0, symName: _createSocket, symObjAddr: 0x0, symBinAddr: 0x1000026FC, symSize: 0x184 }
+  - { offsetInCU: 0x256, offset: 0x256, size: 0x8, addend: 0x0, symName: _readFromClient, symObjAddr: 0x184, symBinAddr: 0x100002880, symSize: 0x330 }
+  - { offsetInCU: 0x2C4, offset: 0x2C4, size: 0x8, addend: 0x0, symName: _writeToClient, symObjAddr: 0x4B4, symBinAddr: 0x100002BB0, symSize: 0x11C }
+  - { offsetInCU: 0x34A, offset: 0x34A, size: 0x8, addend: 0x0, symName: _handle_request, symObjAddr: 0x5D0, symBinAddr: 0x100002CCC, symSize: 0x90 }
+  - { offsetInCU: 0x3B4, offset: 0x3B4, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x660, symBinAddr: 0x100002D5C, symSize: 0xCC }
+  - { offsetInCU: 0x26, offset: 0x68B, size: 0x8, addend: 0x0, symName: _validateFields64, symObjAddr: 0x0, symBinAddr: 0x100002E28, symSize: 0x268 }
+  - { offsetInCU: 0x41, offset: 0x6A6, size: 0x8, addend: 0x0, symName: _validateFields64, symObjAddr: 0x0, symBinAddr: 0x100002E28, symSize: 0x268 }
+  - { offsetInCU: 0xCB, offset: 0x730, size: 0x8, addend: 0x0, symName: _printFields64, symObjAddr: 0x268, symBinAddr: 0x100003090, symSize: 0x280 }
+  - { offsetInCU: 0x26, offset: 0x961, size: 0x8, addend: 0x0, symName: _validateFields32, symObjAddr: 0x0, symBinAddr: 0x100003310, symSize: 0x28C }
+  - { offsetInCU: 0x41, offset: 0x97C, size: 0x8, addend: 0x0, symName: _validateFields32, symObjAddr: 0x0, symBinAddr: 0x100003310, symSize: 0x28C }
+  - { offsetInCU: 0xB9, offset: 0x9F4, size: 0x8, addend: 0x0, symName: _printFields32, symObjAddr: 0x28C, symBinAddr: 0x10000359C, symSize: 0x284 }
+  - { offsetInCU: 0x26, offset: 0xC02, size: 0x8, addend: 0x0, symName: _write_fully, symObjAddr: 0x0, symBinAddr: 0x100003820, symSize: 0xE4 }
+  - { offsetInCU: 0x83, offset: 0xC5F, size: 0x8, addend: 0x0, symName: _write_fully, symObjAddr: 0x0, symBinAddr: 0x100003820, symSize: 0xE4 }
+  - { offsetInCU: 0xFF, offset: 0xCDB, size: 0x8, addend: 0x0, symName: _read_fully, symObjAddr: 0xE4, symBinAddr: 0x100003904, symSize: 0xF0 }
+...
