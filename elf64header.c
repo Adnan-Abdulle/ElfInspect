@@ -20,7 +20,7 @@
     }
 
     if (header64->e_ehsize != sizeof(Elf64_Ehdr)){
-        *errorMsg ="Elf Header size does not match";
+        *errorMsg ="Elf Header size does not match\n";
         return 0;
     }
 

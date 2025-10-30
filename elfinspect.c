@@ -114,7 +114,7 @@ int writeToServer(int fd, const char* buffer, const char* filename, uint64_t siz
 }
 int main(int argc, char* argv[]){
     if (argc != 3){
-        fprintf(stderr, "Error: Invalid Arguements");
+        fprintf(stderr, "Error: Invalid Arguments\n");
         return EXIT_FAILURE;
     }
     char* path = argv[1];

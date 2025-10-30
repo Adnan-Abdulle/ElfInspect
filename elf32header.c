@@ -18,7 +18,7 @@ void validateFields32(const Elf32_Ehdr* header32){
     }
 
     if (header32->e_ehsize != sizeof(Elf32_Ehdr)){
-        fprintf(stderr, "Elf Header size does not match");
+        fprintf(stderr, "Elf Header size does not match\n");
         exit(EXIT_FAILURE);
     }
 
